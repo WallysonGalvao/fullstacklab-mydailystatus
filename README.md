@@ -41,6 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org)
+- [Auth0](https://auth0.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🎨 Layout
