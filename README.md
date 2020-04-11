@@ -43,6 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [Auth0](https://auth0.com/)
 - [Firebase](https://firebase.google.com/?hl=pt-br)
+- [Zeit](https://zeit.co/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🎨 Layout

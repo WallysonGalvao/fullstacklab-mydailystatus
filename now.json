@@ -1,0 +1,24 @@
+{
+  "env": {
+    "CLIENT_ID": "@auth0-client-id",
+    "CLIENT_SECRET": "@auth0-client-secret",
+    "SCOPE": "openid profile",
+    "DOMAIN": "@auth0-domain",
+    "REDIRECT_URI": "@auth0-redirect-uri",
+    "POST_LOGOUT_REDIRECT_URI": "@auth0-post-logout-redirect-uri",
+    "SESSION_COOKIE_SECRECT": "gighmmpiobklfepjocnamgkkbiglidom",
+    "SESSION_COOKIE_LIFE_TIME": "3600"
+  },
+  "build": {
+    "env": {
+      "CLIENT_ID": "@auth0-client-id",
+      "CLIENT_SECRET": "@auth0-client-secret",
+      "SCOPE": "openid profile",
+      "DOMAIN": "@auth0-domain",
+      "REDIRECT_URI": "@auth0-redirect-uri",
+      "POST_LOGOUT_REDIRECT_URI": "@auth0-post-logout-redirect-uri",
+      "SESSION_COOKIE_SECRECT": "gighmmpiobklfepjocnamgkkbiglidom",
+      "SESSION_COOKIE_LIFE_TIME": "3600"
+    }
+  }
+}

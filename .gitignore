@@ -2,3 +2,4 @@ node_modules
 .next
 .env
 firebase-secret.json
+.now
