@@ -43,17 +43,17 @@ export async function getServerSideProps({ req, res }) {
       .doc(user.sub)
       .get();
 
-    const { coordinates } = todaysCheckin.data();
+    const data = todaysCheckin.data();
     let forceCreate = true;
 
-    if (coordinates) {
+    if (data) {
       forceCreate = false;
       const { docs } = await db
         .collection("markers")
         .doc(currentDate)
         .collection("checks")
         .near({
-          center: coordinates,
+          center: data.coordinates,
           radius: 1000,
         })
         .get();

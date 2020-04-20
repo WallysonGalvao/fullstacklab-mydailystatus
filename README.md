@@ -52,6 +52,14 @@ Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](
 
 ## :zap: Executando
 
+### Pré-requisitos:
+
+É necessário criar na raiz do projeto um arquivo .env, pode usar como exemplo o arquivo .env.example. 
+ 
+<span style="color:red">**Obs:**</span> No valor da chave **DOMAIN**, não é necessario ter o **https://**.  
+*Exemplo: DOMAIN=fullstacklab-mydailystatus.auth0.com*
+
+
 1 - Em um terminal, entrar na raiz do projeto **/fullstacklab-mydailystatus** e rodar o comando:
 
 ```
